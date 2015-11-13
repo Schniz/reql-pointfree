@@ -1,0 +1,35 @@
+{
+  "name": "rethinkdb-func",
+  "version": "1.0.0",
+  "description": "Functional RethinkDB functions for point free programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-core/register",
+    "test-watch": "mocha --watch --require babel-core/register"
+  },
+  "author": "Gal Schlezinger",
+  "license": "ISC",
+  "keywords": [
+    "rethinkdb",
+    "functional",
+    "functions",
+    "compose"
+  ],
+  "dependencies": {
+    "rethinkdb": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel": "^6.1.18",
+    "babel-cli": "^6.1.18",
+    "babel-core": "^6.1.20",
+    "babel-eslint": "^4.1.5",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "eslint": "^1.9.0",
+    "eslint-config-rackt": "^1.1.1",
+    "mocha": "^2.3.3",
+    "mochawait": "^2.0.1"
+  }
+}

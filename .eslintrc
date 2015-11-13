@@ -1,0 +1,13 @@
+{
+  "extends": "rackt",
+  "rules": {
+    "comma-dangle": 0,
+    "eol-last": 2,
+  },
+  "globals": {
+    "it": true,
+    "describe": true,
+    "before": true,
+    "after": true,
+  },
+}

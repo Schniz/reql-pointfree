@@ -1,16 +1,19 @@
 {
-  "name": "rethinkdb-func",
+  "name": "reql-pointfree",
   "version": "1.0.0",
   "description": "Functional RethinkDB functions for point free programming",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require babel-core/register",
-    "test-watch": "mocha --watch --require babel-core/register"
+    "test-watch": "mocha --watch --require babel-core/register",
+    "build": "babel lib --out-dir dist/",
+    "prepublish": "npm run test && npm run build"
   },
   "author": "Gal Schlezinger",
   "license": "ISC",
   "keywords": [
     "rethinkdb",
+    "reql",
     "functional",
     "functions",
     "compose"
@@ -30,6 +33,7 @@
     "eslint": "^1.9.0",
     "eslint-config-rackt": "^1.1.1",
     "mocha": "^2.3.3",
-    "mochawait": "^2.0.1"
+    "mochawait": "^2.0.1",
+    "reqlite": "^2.1.1"
   }
 }

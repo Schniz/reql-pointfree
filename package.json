@@ -2,7 +2,7 @@
   "name": "reql-pointfree",
   "version": "1.0.1",
   "description": "Functional RethinkDB functions for point free programming",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha --require babel-core/register",
     "test-watch": "mocha --watch --require babel-core/register",

@@ -5,8 +5,11 @@ let upper = t => t.toUpperCase()
 let exclaim = t => t + '!'
 
 function test({ text, r, pre }) {
-  describe(text, () => {
-    let reql, db, compose, execute, add, take, table, filter, map, getLastName, exclaimRethink, getFullName, getFirst, filterGal, users, rdb
+  describe(text, function () {
+    let reql, db, compose, execute, add, take,
+      table, filter, map, getLastName, exclaimRethink,
+      getFullName, getFirst, filterGal, users, rdb
+
     before((done) => pre(r).then((conn) => {
       let pf = pfReql(r)
       db = pf.db

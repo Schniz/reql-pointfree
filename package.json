@@ -18,10 +18,8 @@
     "functions",
     "compose"
   ],
-  "dependencies": {
-    "rethinkdb": "^2.2.0"
-  },
   "devDependencies": {
+    "rethinkdb": "^2.2.0",
     "babel": "^6.1.18",
     "babel-cli": "^6.1.18",
     "babel-core": "^6.1.20",

@@ -7,7 +7,7 @@
     "test": "mocha --require babel-core/register",
     "test-watch": "mocha --watch --require babel-core/register",
     "build": "babel lib --out-dir dist/",
-    "prepublish": "npm run test && npm run build"
+    "prepublish": "npm run build"
   },
   "author": "Gal Schlezinger",
   "license": "ISC",

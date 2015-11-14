@@ -34,6 +34,7 @@
     "eslint-config-rackt": "^1.1.1",
     "mocha": "^2.3.3",
     "mochawait": "^2.0.1",
-    "reqlite": "^2.1.1"
+    "reqlite": "^2.1.1",
+    "rethinkdbdash": "^2.1.17"
   }
 }

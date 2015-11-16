@@ -1,6 +1,6 @@
 {
   "name": "reql-pointfree",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Functional RethinkDB functions for point free programming",
   "main": "dist/index.js",
   "scripts": {
